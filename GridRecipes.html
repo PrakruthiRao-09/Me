@@ -39,6 +39,19 @@
         .ingredients{
             text-align:left;
         }
+        .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap:10px;
+}
+.grid-item {
+    border: 3px solid rgb(16, 46, 180);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+} 
     </style>
 </head>
 <body>
@@ -48,7 +61,7 @@
     <li><a href="./index.html" >About me</a> </li>
     <li><a href="./MyArtCreations.html" >Art</a> </li>
     <li><a href="./MyCraftCreations.html" >Craft</a> </li>
-    <li><a href="./GridRecipes.html" >Recipes</a> </li>
+    <li><a href="./MyRecipeCreations.html" >Recipes</a> </li>
     <li><a href= "./startquiz.html" >Quizzes</a></li>
     <li><a href= "./Registration.html" >Registration</a></li>
     <li><a href= "./Login.html" >Log in</a></li>
@@ -61,35 +74,42 @@
         <h1> Desserts </h1>
         <br>
         <br>
-        <h3> -  Chocolate cake pops</h3>
+    </div>
+    <div class="grid-item">
+        
+
+<h3> -  Amazing Blueberry jam ~ No pectin, gelatin or agar-agar!</h3>
+<img class="recipeFour" src="./static/JamSpoon.jpg" alt="Image of Blueberry jam" width="350px" height="333px">
+<p> <a href="./R4.html" >(Click here for recipe)</a>
+</p>
+
+    </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h4> -  Chocolate cake pops</h4>
         <img class="recipeOne" src="./static/yumpop.JPG" alt="Image of one choco cake pop"><br>
         <p> <a href="./R1.html" >(Click here for recipe)</a>
         </p>
-        <br>
-        <br>
-        <br>
-        <h3> -  Cinnamon muffins</h3>
+        
+            </div>
+            <div class="grid-item">
+                <h4> -  Cinnamon muffins</h4>
         <img class="recipeTwo" src="./static/Cinnamuffin.JPG" alt="Image of Cinnamon muffin" width="360px" height="333px">
         <p> <a href="./R2.html" >(Click here for recipe)</a>
         </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3> -  No-Churn Raspberry ice cream</h3>
+       
+        
+            </div>
+            <div class="grid-item">
+                
+        
+        <h4> -  No-Churn Raspberry ice cream</h4>
         <img class="recipeThree" src="./static/Raspberryyum.JPG" alt="Image of Raspberry icecream" width="350px" height="333px">
         <p> <a href="./R3.html" >(Click here for recipe)</a>
         </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3> -  Amazing Blueberry jam ~ No pectin, gelatin or agar-agar!</h3>
-        <img class="recipeFour" src="./static/JamSpoon.jpg" alt="Image of Blueberry jam" width="350px" height="333px">
-        <p> <a href="./R4.html" >(Click here for recipe)</a>
-        </p>
-
-    
+        
+            
+        </div>
         
 </body>
 </html>
